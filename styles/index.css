@@ -1,0 +1,51 @@
+/* Full-screen hero section */
+.hero-section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Background video styling */
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Overlay content */
+.hero-section .content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Custom transparent button */
+.hero-btn {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+}
+
+/* Optional dark overlay */
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* dark overlay for readability */
+    z-index: 0;
+}
