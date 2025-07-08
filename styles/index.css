@@ -1,3 +1,21 @@
+/* ROOT CSS */
+.root{
+    .btn-bd-primary {
+            --bs-btn-font-weight: 600;
+            --bs-btn-color: var(--bs-white);
+            --bs-btn-bg: var(--bd-violet-bg);
+            --bs-btn-border-color: var(--bd-violet-bg);
+            --bs-btn-hover-color: var(--bs-white);
+            --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+            --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+            --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+            --bs-btn-active-color: var(--bs-btn-hover-color);
+            --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+            --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};     
+        }
+}
+
+
 /* Full-screen hero section */
 .hero-section {
     position: relative;
@@ -5,6 +23,7 @@
     width: 100%;
     overflow: hidden;
     z-index: 1;
+    background: no-repeat url(/STEPDANCE254/images/jessica-streser-gbD2GS8rFaI-unsplash.jpg) center center/cover;
 }
 
 /* Background video styling */
@@ -25,20 +44,7 @@
 }
 
 /* Custom transparent button */
-.hero-btn {
-    background-color: rgba(255, 255, 255, 0.2);
-    border: 2px solid white;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    font-weight: bold;
-    border-radius: 30px;
-    transition: all 0.3s ease;
-}
 
-.hero-btn:hover {
-    background-color: rgba(255, 255, 255, 0.4);
-    color: black;
-}
 
 /* Optional dark overlay */
 .hero-section::before {
@@ -48,4 +54,11 @@
     width: 100%; height: 100%;
     background: rgba(0, 0, 0, 0.4); /* dark overlay for readability */
     z-index: 0;
+}
+
+/* SOCIALS IMAGES EDIT */
+
+.img-socials{
+    width: 25px;
+    height: 25px;
 }
