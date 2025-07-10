@@ -1,0 +1,128 @@
+<main class="container my-custom-container d-grid p-1 gy-3 mx-auto">
+
+        <h1 class="display-2 text-center">Tutorials</h1>
+
+        <div class="row p-2 gx-4  gy-1 mb-3 my-custom-row bg-dark text-light">
+            <h2 class="text-center">Introduction to step dance</h2>
+        
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="ratio ratio-1x1">
+                    <video controls poster="images/logo-min.jpg" class="my-custom-video">
+                        <source src="videos/tutorial.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="ratio ratio-1x1">
+                    <video controls poster="images/logo-min.jpg" class="my-custom-video">
+                        <source src="videos/tutorial.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="ratio ratio-1x1">
+                    <video controls poster="images/logo-min.jpg" class="my-custom-video">
+                        <source src="videos/tutorial.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="ratio ratio-1x1">
+                    <video controls poster="images/logo-min.jpg" class="my-custom-video">
+                        <source src="videos/tutorial.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        
+        </div>
+          
+        <div class="row p-2 gx-4  gy-1 mb-3 my-custom-row bg-dark text-light">
+            <h2 class="text-center">Beginner Friendly</h2>
+        
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="ratio ratio-1x1">
+                    <video controls poster="images/logo-min.jpg" class="my-custom-video">
+                        <source src="videos/tutorial.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="ratio ratio-1x1">
+                    <video controls poster="images/logo-min.jpg" class="my-custom-video">
+                        <source src="videos/tutorial.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="ratio ratio-1x1">
+                    <video controls poster="images/logo-min.jpg" class="my-custom-video">
+                        <source src="videos/tutorial.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="ratio ratio-1x1">
+                    <video controls poster="images/logo-min.jpg" class="my-custom-video">
+                        <source src="videos/tutorial.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        
+        </div>
+
+        <div class="row p-2 gx-4  gy-1 mb-3 my-custom-row bg-dark text-light">
+            <h2 class="text-center">Step Up-Challenge phase</h2>
+        
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="ratio ratio-1x1">
+                    <video controls poster="images/logo-min.jpg" class="my-custom-video">
+                        <source src="videos/tutorial.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="ratio ratio-1x1">
+                    <video controls poster="images/logo-min.jpg" class="my-custom-video">
+                        <source src="videos/tutorial.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="ratio ratio-1x1">
+                    <video controls poster="images/logo-min.jpg" class="my-custom-video">
+                        <source src="videos/tutorial.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="ratio ratio-1x1">
+                    <video controls poster="images/logo-min.jpg" class="my-custom-video">
+                        <source src="videos/tutorial.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        
+        </div>
+
+    </main>    
