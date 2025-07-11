@@ -76,32 +76,95 @@
         </nav>
 
     </header>
-    <!--  <main class="container p-5 max-height: 100%">
 
-        <div class="row my-custom-row bg-#333">
-            <div class="col place-content-center" >
-                <h1>Step Dance 254 where Fitness meets Dancing.</h1>
-                <a href="about.html" class="btn btn-primary my--btn">Dance with me</a>
+    <main class="container py-5" id="schedule">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center">Contact Us</h2>
+            </div>
+            <div class="col">
+                <form action="" class="form bg-body-secondary rounded" data-netlify="true">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" name="name" placeholder="Maxwell Otieno" class="form-control" id="name"
+                            aria-required="true">
+                    </div>
+                    <div class="mb-3">
+                        <label for="tel" class="form-label">Phone Number</label>
+                        <input type="tel" name="tel" placeholder="+254 758346537" class="form-control" id="tel"
+                            aria-required="true">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp"
+                            aria-required="true">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+
+                    <!-- Schedule Section -->
+                    <div class="mb-4">
+                        <label class="form-label fw-semibold">Choose a Service:</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="service" id="personal" value="personal">
+                            <label class="form-check-label" for="personal">Personal Training</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="service" id="group" value="group">
+                            <label class="form-check-label" for="group">Step Dance Classes</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="service" id="spin" value="spin">
+                            <label class="form-check-label" for="spin">Spin Bike Classes</label>
+                        </div>
+                    </div>
+
+                    <div class="mb-4 d-none" id="sessionOptions">
+                        <label for="sessionTime" class="form-label">Preferred Time Slot:</label>
+                        <select class="form-select" name="sessionTime" id="sessionTime">
+                            <option value="">Select a time slot</option>
+                            <option value="morning">Morning (6am - 9am)</option>
+                            <option value="midday">Midday (11am - 1pm)</option>
+                            <option value="evening">Evening (5pm - 8pm)</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="comment" class="form-label">Comments</label>
+                        <textarea class="form-control" name="comments" id="comment" cols="30" rows="5"
+                            placeholder="Write your comments here..."></textarea>
+                    </div>
+
+                    <div class="col d-flex justify-content-center">
+                        <button class="btn btn-secondary px-4" type="submit">Submit</button>
+                    </div>
+                </form>
             </div>
         </div>
-    </main>     -->
-
-    <main class="container">
-
     </main>
+
+    <script>
+        const serviceRadios = document.querySelectorAll('input[name="service"]');
+        const sessionOptions = document.getElementById('sessionOptions');
+
+        serviceRadios.forEach(radio => {
+            radio.addEventListener('change', () => {
+                sessionOptions.classList.remove('d-none');
+            });
+        });
+    </script>
 
 
     <footer class="bg-dark text-white py-4 position-bottom-0">
         <div class="container">
             <div class="row">
-                <!-- Column 1 -->
+                <!-- rowflex-row 1 -->
                 <div class="col-md-4 mb-3">
                     <!--      <h5>Step Dance</h5> -->
                     <img src="images/logo-min.png" alt="Stepdance254 official logo" class=" mx-auto rounded-circle">
                     <p class="text-justify mt-1">Inspiring rhythm and movement around the world.</p>
                 </div>
 
-                <!-- Column 2 -->
+                <!-- rowflex-row 2 -->
                 <div class="col-md-4 mb-3">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
@@ -117,7 +180,7 @@
                     </ul>
                 </div>
 
-                <!-- Column 4 -->
+                <!-- rowflex-row 4 -->
                 <div class="col-md-4 mb-3">
                     <h5>Socials</h5>
                     <ul class="list-unstyled P-3">
@@ -138,7 +201,7 @@
                     </ul>
                 </div>
 
-                <!-- Column 4 -->
+                <!-- rowflex-row 4 -->
                 <div class="col-md-4 mb-3">
                     <h5>Contact</h5>
                     <p>Email: info@stepdance.com</p>
