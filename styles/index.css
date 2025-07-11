@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "bootstrap-icons";
+    src: url("../public/fonts/fonts/bootstrap-icons.woff2") format("woff2");
+}
 /* ROOT CSS */
 .root{
     .btn-bd-primary {
@@ -13,6 +17,10 @@
             --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
             --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};     
         }
+}
+
+html, body {
+    overflow-x: hidden;
 }
 
 
@@ -91,6 +99,14 @@
 .card-img-top {
     height: 100%;
     max-height: 200px;
+    object-fit: cover;
+}
+
+.my-video-container{
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 1/1;
     object-fit: cover;
 }
 

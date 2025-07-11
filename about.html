@@ -29,6 +29,7 @@
     <link rel="manifest" href="images/favicon_io/site.webmanifest">
     <link rel="stylesheet" href="styles/index.css">
     <script src="scripts/main.js" type="text/JavaScript" defer></script>
+    <link href="public/bootstrap-icons.min.css" rel="stylesheet">
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
 </head>
@@ -49,9 +50,7 @@
                             <a class="nav-link text-white" href="index.html">Home</a>
                         </li>
                         <li class="nav-item mx-2 ">
-                            <a class="nav-link-active text-white"
-                            aria-current="page"
-                            href="about.html">About</a>
+                            <a class="nav-link-active text-white" aria-current="page" href="about.html">About</a>
                         </li>
                         <li class="nav-item mx-2 ">
                             <a class="nav-link text-white" href="service.html">Services</a>
@@ -89,80 +88,85 @@
             </div>
             <div class="col-lg-8">
                 <p class="lead">
-                    Coach Maxwell, affectionately known as Coach Max, is the visionary founder behind Step Dance 254. With over
-                    a decade of experience in fitness and dance instruction, Max is a certified personal trainer passionate
+                    Coach Maxwell, affectionately known as Coach Max, is the visionary founder behind Step Dance 254.
+                    With over
+                    a decade of experience in fitness and dance instruction, Max is a certified personal trainer
+                    passionate
                     about helping people achieve both physical wellness and joyful movement.
                 </p>
                 <p>
-                    His energetic teaching style and dedication to community wellness have inspired countless Nairobian's to
-                    embrace step-based workouts as a lifestyle. Through rhythm, sweat, and movement, Coach Max transforms
+                    His energetic teaching style and dedication to community wellness have inspired countless
+                    Nairobian's to
+                    embrace step-based workouts as a lifestyle. Through rhythm, sweat, and movement, Coach Max
+                    transforms
                     ordinary fitness into a cultural rhythm revolution.
                 </p>
             </div>
         </div>
         <hr class="border-1 bg-dark">
 
-        
-            <div class="row align-items-center gx-5">
-                <!-- Carousel on the left -->
-                <div class="col-lg-6">
-                    <div id="imageCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active"
-                                aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
-        
-                        <div class="carousel-inner">
-                            <div class="carousel-item active bg-black my-item">
-                                <img src="images/logo.jpg" alt="Carousel image slide" class="img-fluid my-custom-img d-block w-100 " loading="lazy">
-                                
-                            </div>
-                            <div class="carousel-item bg-black my-item">
-                                <img src="..." alt="Carousel image slide" class="img-fluid my-custom-img d-block w-100 " loading="lazy">
-                               
-                            </div>
-                            <div class="carousel-item bg-black my-item">
-                                <img src="..." alt="Carousel image slide" class="img-fluid my-custom-img d-block w-100 " loading="lazy">
-                            </div>
-                        </div>
-        
-                        <button class="carousel-control-prev" type="button" 
-                        title="previous"
-                        data-bs-target="#imageCarousel"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" 
-                        title="next"
-                        data-bs-target="#imageCarousel"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
+
+        <div class="row align-items-center gx-5">
+            <!-- Carousel on the left -->
+            <div class="col-lg-6">
+                <div id="imageCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
                     </div>
-                </div>
-        
-                <!-- Description on the right -->
-                <div class="col-lg-6 text-start">
-                    <h2 class="mb-3">What is Step Dance?</h2>
-                    <p class="lead">
-                        Step Dance 254 is a dynamic fusion of step aerobics and dance choreography founded by Coach Maxwell.
-                        It's not just a workout—it's a high-energy, beat-driven experience that transforms ordinary cardio into
-                        a party.
-                    </p>
-                    <p>
-                        Designed for all fitness levels, Step Dance helps you burn calories, tone muscles, and boost your mood
-                        through music and motion.
-                        Whether you're a beginner or a pro, Step Dance gets you moving with purpose and rhythm.
-                    </p>
-                    <a href="contact.html" class="btn btn-outline-warning btn-lg mt-3  ">Join a Class Today</a>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active bg-black my-item">
+                            <img src="images/logo.jpg" alt="Carousel image slide"
+                                class="img-fluid my-custom-img d-block w-100 " loading="lazy">
+
+                        </div>
+                        <div class="carousel-item bg-black my-item">
+                            <img src="..." alt="Carousel image slide" class="img-fluid my-custom-img d-block w-100 "
+                                loading="lazy">
+
+                        </div>
+                        <div class="carousel-item bg-black my-item">
+                            <img src="..." alt="Carousel image slide" class="img-fluid my-custom-img d-block w-100 "
+                                loading="lazy">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" title="previous" data-bs-target="#imageCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" title="next" data-bs-target="#imageCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
                 </div>
             </div>
+
+            <!-- Description on the right -->
+            <div class="col-lg-6 text-start">
+                <h2 class="mb-3">What is Step Dance?</h2>
+                <p class="lead">
+                    Step Dance 254 is a dynamic fusion of step aerobics and dance choreography founded by Coach Maxwell.
+                    It's not just a workout—it's a high-energy, beat-driven experience that transforms ordinary cardio
+                    into
+                    a party.
+                </p>
+                <p>
+                    Designed for all fitness levels, Step Dance helps you burn calories, tone muscles, and boost your
+                    mood
+                    through music and motion.
+                    Whether you're a beginner or a pro, Step Dance gets you moving with purpose and rhythm.
+                </p>
+                <a href="contact.html" class="btn btn-outline-warning btn-lg mt-3  ">Join a Class Today</a>
+            </div>
         </div>
-          
+        </div>
+
 
     </main>
 

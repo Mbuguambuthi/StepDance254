@@ -28,8 +28,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
     <link rel="manifest" href="images/favicon_io/site.webmanifest">
     <link rel="stylesheet" href="styles/index.css">
+
     <script src="scripts/main.js" type="text/JavaScript" defer></script>
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
 </head>
 
@@ -165,7 +167,7 @@
 
                         <div class="mt-auto">
                             <a href="#" class="btn btn-outline-light  me-2">Join A Class</a>
-                            <a href="#" class="card-link">Link</a>
+                            <a href="#" class="card-link text-light">Link</a>
 
 
                         </div>
@@ -178,10 +180,75 @@
         </div>
 
 
-        <div class="row">
-            <h1>Testimonials</h1>
-            <div class="col-12 col-md-6 col-lg-4 mx-auto"></div>
-            <div class="col-12 col-md-6 col-lg-4 mx-auto"></div>
+        <div class="row ">
+            <div class="col-12 text-center">
+                <h1 class="">Testimonials</h1>
+            </div>
+
+            <div class="col-12">
+                <div class="row justify-content-center align-items-center g-4 mb-5">
+
+                    <div class="col-md-12 col-lg-6 ">
+                        <div class="my-video-container bg-dark rounded-circle overflow-hidden">
+                            <video class="w-100 h-100">
+                                <source src="videos/VIDT.mp4">
+                                Your browser does not support this video tag.
+                            </video>
+                            <script>
+                                const ratio = document.querySelector(".my-video-container");
+                                const video = document.querySelector("video");
+
+                                ratio.addEventListener('click', () => {
+                                    if (video.paused) {
+
+                                        video.play();
+                                    } else {
+                                        video.pause();
+                                    }
+                                })
+
+                            </script>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-md-12 col-lg-6">
+                        <div class="card shadow border-0 h-100">
+
+
+                            <p class="lead fw-semibold text-warning-emphasis mb-3">
+                                <i class="bi bi-chat-dots-fill fs-2 me-1"></i>
+
+                                Nothing speaks louder than results! Listen to what our vibrant Step Dance 254 community
+                                says
+                                about dancing their way
+                                to fitness — energy, transformation, and joy in every move.
+                            </p>
+
+
+                            <div class="card-body bg-dark">
+                                <p class="card-text text-bg-light ">
+                                <blockquote class="blockquote mb-4">
+                                    <p class="mb-3 text-light "><q>Step dance is fun, energetic and therapeutic.</q></p>
+                                    <footer class="blockquote-footer  text-white-50 ms-2">Anonymous</footer>
+                                </blockquote>
+
+                                <a href="contact.html" class="btn btn-lg btn-outline-warning mt-auto float-end">Join
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <!--   <i class="bi bi-alarm" style="font-size: 2rem; color: crimson;"></i>
+ -->
+
+            <!-- <div class="col-12 col-md-6 col-lg-4 mx-auto"></div> -->
 
 
         </div>
