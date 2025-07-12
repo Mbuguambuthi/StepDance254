@@ -23,6 +23,16 @@ html, body {
     overflow-x: hidden;
 }
 
+/* INDEX CSS */
+.img-thumbnail{
+    max-width: 80px;
+    height: auto;
+}
+
+.modal-backdrop.show{
+    opacity: 0.9;
+    background-color: #000; !important
+}
 
 /* Full-screen hero section */
 .hero-section {
@@ -51,7 +61,6 @@ html, body {
     z-index: 2;
 }
 
-/* Custom transparent button */
 
 
 /* Optional dark overlay */
@@ -59,11 +68,13 @@ html, body {
     content: "";
     position: absolute;
     top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.4); /* dark overlay for readability */
+    width: 100%; 
+    height: 100%;
+    /* background: rgba(0, 0, 0, 0.4); /* dark overlay for readability */ */
     z-index: 0;
 }
 
+/* FOOTER CSS */
 /* SOCIALS IMAGES EDIT */
 
 .img-socials{
@@ -107,9 +118,20 @@ html, body {
     width: 100%;
     max-width: 500px;
     aspect-ratio: 1/1;
-    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
 }
 
+.my-video-container video{
+          
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.my-video-container:hover{
+    transform: rotate(360deg);
+}
 /* TUTORIALS CSS */
 
 

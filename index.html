@@ -30,8 +30,8 @@
     <link rel="stylesheet" href="styles/index.css">
     <link href="public/bootstrap-icons.min.css" rel="stylesheet">
     <script src="scripts/main.js" type="text/JavaScript" defer></script>
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link href="public/bootstrap.min.css" rel="stylesheet">
+    <script src="public/bootstrap.bundle.min.js" defer></script>
 </head>
 
 <body>
@@ -75,27 +75,52 @@
         </nav>
 
     </header>
-    <!--  <main class="container p-5 max-height: 100%">
-
-        <div class="row my-custom-row bg-#333">
-            <div class="col place-content-center" >
-                <h1>Step Dance 254 where Fitness meets Dancing.</h1>
-                <a href="about.html" class="btn btn-primary my--btn">Dance with me</a>
-            </div>
-        </div>
-    </main>     -->
 
     <main class="hero-section d-flex justify-content-center align-items-center text-center">
-        <video autoplay muted loop class="bg-video">
+        <!--  <video autoplay muted loop class="bg-video">
             <source src="your-video.mp4" type="video/mp4">
             Your browser does not support the video tag.
-        </video>
+        </video> -->
 
         <div class="content text-white">
             <h1 class="display-4">Step Dance 254 where Fitness meets Dancing.</h1>
             <a href="about.html" class="btn hero-btn btn-outline-light btn-lg mt-3">Dance with me</a>
+
+            <!-- <button class="btn hero-btn btn-outline-light btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#myModal">
+                Dance with me
+            </button>
+        </div> -->
+
+            <!-- Modal -->
+            <!--  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title fs-5" id="myModalLabel"><img src="images/logo-min.png"
+                                alt="Step dance 254 logo" class="img-thumbnail w-5 rounded-circle"> </p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Welcome to the website.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Thanks</button>
+                    </div>
+                </div>
+            </div> -->
+
+            <!--  <script>
+                const modalEl = document.querySelector('#myModal');
+                modalEl.addEventListener('hidden.bs.modal', () => {
+                    window.location.href = 'about.html';
+                });
+            </script>
+ -->
         </div>
     </main>
+
+
 
 
     <footer class="bg-dark text-white py-4 position-bottom-0">
@@ -162,7 +187,6 @@
             </div>
         </div>
     </footer>
-
 
 </body>
 
