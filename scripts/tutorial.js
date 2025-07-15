@@ -59,14 +59,6 @@ piles.forEach((group, index) => {
     video.setAttribute('controls', '');
     video.style.objectFit = 'cover';
     video.style.borderRadius = '10px';
-    ratio.addEventListener('click', () => {
-      if (video.paused) {
-        video.play();
-
-      } else {
-        video.pause();
-      }
-    })
 
     // video.setAttribute();
     // video.setAttribute();

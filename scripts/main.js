@@ -1,3 +1,18 @@
+/* VIDEO PLAY */
+
+const videos = document.querySelectorAll('video');
+
+for (video of videos) {
+    console.log('video');
+    video.addEventListener('click', () => {
+        if (video.paused) {
+            video.play();
+        } else {
+            video.pause();
+        }
+    });
+}
+
 /* CONTACT.JS */
 
 // SCHEDULE SECTION SCRIPT
@@ -15,7 +30,7 @@ serviceRadios.forEach(radio => {
 
 //VIDEO PLAYTOGGLE
 
-const ratio = document.querySelector(".my-video-container");
+/* const ratio = document.querySelector(".my-video-container");
 const video = document.querySelector("#myVideo");
 ratio.addEventListener('click', () => {
     if (video.paused) {
@@ -24,4 +39,5 @@ ratio.addEventListener('click', () => {
         video.pause();
     }
 });
+ */
 
